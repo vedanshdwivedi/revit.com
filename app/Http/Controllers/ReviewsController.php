@@ -30,7 +30,7 @@ class ReviewsController extends Controller
      */
     public function create()
     {
-        //
+        return 'okay';
     }
 
     /**

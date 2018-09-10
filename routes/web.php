@@ -13,6 +13,10 @@
 
 Route::get('/', 'ReviewsController@index');
 
+Route::get('/create', 'DashboardController@create');
+
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+
+Route::get('/test', 'DashboardController@index');

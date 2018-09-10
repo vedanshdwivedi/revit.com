@@ -32,6 +32,11 @@ class DashboardController extends Controller
         //return view('dashboard')->with('reviews', $reviews);
         $user_id = auth()->user()->id;
         $user = User::find($user_id);
+        $products = Product::all();
         return view('dashboard')->with('reviews', $user->review);
+    }
+
+    public function create(){
+        return view('create');
     }
 }
