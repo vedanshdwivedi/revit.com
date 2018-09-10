@@ -1,0 +1,10 @@
+Version Control
+
+0.0.0 or the initial commit
+
++0.0.1 for minor updates
+
++0.1.0 for the prototype or testing phase (x.x.0)
+
++1.0.0 for the stable release
+
