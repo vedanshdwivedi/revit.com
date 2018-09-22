@@ -1,0 +1,86 @@
+body{
+    font-family: font-family: Catamaran;
+}
+.sidebar{
+    
+}
+html{
+    height: 100%;
+}
+
+
+
+.navbar-default .navbar-brand{
+    color:black;
+}
+
+#login{
+    min-width: 210px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+#login .social-buttons{
+    margin:15px 0;
+    
+}
+
+.btn-fb{
+    color: #ffffff;
+    background-color: #3b5998;
+}
+
+.btn-tw{
+    color: #ffffff;
+    background-color: #55acee;
+}
+
+.btn-fb:hover{
+    color: #ffffff;
+    background-color: #496ebc;
+}
+.btn-tw:hover{
+    color: #ffffff;
+    background-color: #76bcf1;
+}
+
+.nav-sidebar{
+    margin:80px -20px 20px 20px; 
+    
+}
+.nav-sidebar> li >a{
+    padding: 20px 20px;
+}
+
+.main{
+    margin-top: 50px;
+  
+    padding: 20px;
+    
+}
+.placeholders{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.placeholder{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.placeholder img{
+    display: inline;
+    border-radius: 50%;
+}
+
+footer{
+    margin: 0 110px;   
+}
+
+
+
+
+
+
+
+
